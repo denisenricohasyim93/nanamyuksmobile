@@ -6,6 +6,7 @@ import Signup from './pages/Signup';
 import Menu from './pages/Menu';
 import MyPlants from './pages/MyPlants';
 import PlantationsTutorial from './pages/PlantationsTutorial';
+import PlantationsTutorialDetail from './pages/PlantationsTutorialDetail';
 
 
 export default class Routes extends Component<{}> {
@@ -18,6 +19,7 @@ export default class Routes extends Component<{}> {
 					<Scene key="menu" component={Menu} title="Menu"/>
 					<Scene key="myplants" component={MyPlants} title="My Plants" hideNavBar={false}/>
 					<Scene key="plantationstutorial" component={PlantationsTutorial} title="Plantations Tutorial" hideNavBar={false}/>
+					<Scene key="plantationstutorialdetail" component={PlantationsTutorialDetail} title="Plantations Tutorial Detail" hideNavBar={false}/>
 			    </Stack>
 			 </Router>
 			)
